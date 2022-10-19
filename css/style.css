@@ -12,7 +12,7 @@ body{
     background: whitesmoke;
 }
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 90%;
     width: 1252px;
     margin: 0 auto;
