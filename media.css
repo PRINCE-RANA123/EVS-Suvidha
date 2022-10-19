@@ -10,6 +10,8 @@ footer .container{
 footer img {
     margin-top:80px;
     margin-left:40px;
+
+    width:150px;height:150px;background-color: #002147;border-radius:50%;
 }
 footer .box{
    
@@ -90,4 +92,28 @@ footer .foot,footer h3{
 footer span{
     font-size:19px;
     color:orange;
+}
+
+@media(max-width:720px){
+    footer .container{
+        flex-wrap: wrap;
+    }
+    footer img {
+        width: 100px;
+        height: 100px;
+        margin-left: 8px;
+    }
+    footer .box1{
+        width: 100%;
+    }
+    footer .box1 .box{
+        margin-left: 118px;
+        width: calc(100% - 118px);
+    }
+    footer .box2{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }

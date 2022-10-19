@@ -96,21 +96,28 @@ footer{
     padding: 2%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------------------------------------For Responsiveness----------------------------------------- */
-@media(max-width:500px){
-    footer{
-        background-color: black;
+@media(max-width:720px){
+    .employer-verify .flex {
+        flex-direction: column-reverse;
     }
+    .employer-verify .right, .employer-verify .left {
+        width: 100%;
+    }
+    .employer-verify .right img {
+        width: 100%;
+    }
+    .program .flex {
+        flex-wrap: wrap;
+    }
+    .program .flex div {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .highlight .flex {
+        flex-direction: column;
+    }
+
 }
