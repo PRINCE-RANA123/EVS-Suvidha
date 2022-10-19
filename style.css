@@ -4,9 +4,7 @@ body{
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.know{
-    padding: 2%;
-}
+
 .flex{
     width: 100%;
     padding: 1%;
@@ -24,11 +22,18 @@ body{
     width: 50%;
 }
 .image{
-    width:100%;
+    /* width:100%;
     align-content: center;
     margin-left: 25%;
-    float: left;
-}
+    float: left; */
+    /* border: 2px solid green; */
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: -33px;
+} 
+
 .image img{
     width: 50%;
    
@@ -38,22 +43,15 @@ body{
     padding: 2%;
 }
 .mission p{
-    color: rgb(160, 157, 157);
+    color: rgba(44, 43, 43, 0.795);
+    letter-spacing: 1px;
+    font-size: 17px;
 }
-.EmployerVerify button{
-    background-color: orange;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 10px 10px 10px;
-    font-size: large;
-    font-weight: bold;
-    border: 50px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 5px grey;
+
+.mission .flex h2{
+    margin-bottom: 14px;
 }
-.EmployerVerify button:hover{
-    color: black;
-}
+
 .program .flex div{
     width: 25%;
     padding: 2%;
@@ -83,6 +81,8 @@ body{
     border: 50px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px grey;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 .volunteer button:hover{
     background-color: orange;
@@ -91,7 +91,7 @@ body{
 .highlight div{
     margin: 1%;
 }
-.footer{
+footer{
     background-color: orange;
     padding: 2%;
 }
@@ -110,7 +110,7 @@ body{
 
 /* --------------------------------------------For Responsiveness----------------------------------------- */
 @media(max-width:500px){
-    .footer{
+    footer{
         background-color: black;
     }
 }
