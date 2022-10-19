@@ -49,7 +49,9 @@ body{
 }
 
 .mission .flex h2{
+    margin-top: 20px;
     margin-bottom: 14px;
+    text-align: left;
 }
 
 .program .flex div{
